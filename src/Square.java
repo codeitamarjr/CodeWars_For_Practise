@@ -1,17 +1,13 @@
 public class Square {
     public static boolean isSquare(int n) {
-        int count;
-        boolean squareTestResult;
 
-        if(n>0) {
-
-            for (count=1; (count*count)==n | count <= n; count++) {
-                boolean squareResult = false;
+        if(n>=0) {
+            for (long count=0; count <= n; count++) {
+                if (count*count==n){
+                    return true;
+                }
             }
-
-
-
-        } else
-            return false;
+        }
+        return false;
     }
 }
