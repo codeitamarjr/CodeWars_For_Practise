@@ -6,6 +6,10 @@ public class Main {
 
         System.out.println("Summation: "+GrassHopper.summation(2));
 
+        System.out.println("Sum: "+Sum.getSum(1,2));
+
+        System.out.println("Kata: "+Kata.quarterOf(8));
+;
 
 
 
