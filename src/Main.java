@@ -10,5 +10,7 @@ public class Main {
 
         System.out.println("Kata: "+Kata.quarterOf(8));
 
+        IntEqualityPrinter.printEqual(1,1,1);
+
     }
 }
