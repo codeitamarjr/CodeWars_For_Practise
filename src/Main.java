@@ -8,9 +8,9 @@ public class Main {
 
         System.out.println("Sum: "+Sum.getSum(1,2));
 
-        System.out.println("Kata: "+Kata.quarterOf(8));
-
         IntEqualityPrinter.printEqual(1,1,1);
+
+        System.out.println("Litres :"+Kata.Litres(11.8));
 
     }
 }
