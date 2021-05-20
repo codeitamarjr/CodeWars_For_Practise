@@ -10,7 +10,7 @@ public class Main {
 
         IntEqualityPrinter.printEqual(1,1,1);
 
-        System.out.println("Litres :"+Kata.Litres(11.8));
+        //System.out.println("Litres :"+Kata.Litres(11.8));
 
     }
 }
